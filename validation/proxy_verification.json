@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "consensus_reports": 243,
+  "aligned_gold_labels": true,
+  "size_indeterminate": 48,
+  "T2a_or_higher": 40,
+  "dominant_subtotal_counts": {
+    "extension_subtotal_higher": 20,
+    "intrapulmonary_subtotal_higher": 19,
+    "equal_positive_subtotals": 1
+  },
+  "finding_presence_counts": {
+    "extension_only": 19,
+    "intrapulmonary_only": 10,
+    "both_present": 11
+  },
+  "interpretation": "20/19/1 compares T-determining subtotals; it is not the count of mutually exclusive finding presence.",
+  "scope": "108 train + 54 val + 81 test; additional 135 Japanese-only reports not represented in supplied consensus files"
+}

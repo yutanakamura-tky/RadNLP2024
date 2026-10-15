@@ -1,0 +1,15 @@
+{
+  "input_files": 75,
+  "official_metric_class_definitions_unchanged": true,
+  "missing_input_rejected": true,
+  "modified_input_rejected": true,
+  "standalone_execution": true,
+  "numerical_suite_status": "passed",
+  "verification_items": 21,
+  "remaining_issues": [
+    "Independent annotator labels for IAA unavailable",
+    "Japanese TMUNLPG3 subtask available only as separate platform scores"
+  ],
+  "software_license": "MIT",
+  "participant_predictions_access": "private; available from authors on request"
+}

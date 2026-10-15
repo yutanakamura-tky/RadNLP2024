@@ -1,0 +1,32 @@
+[
+  {
+    "original": "sources/RadNLP2024/metric.py",
+    "original_sha256": "2ad61742f4e401effac0b46af793148460413fb53df3be362845b31eb5b1d94c",
+    "packaged": "vendor/official_metric.py",
+    "packaged_sha256": "b8261786818df8f16982548c8e96b7f8b212294eb64d979f46ffed84ea605fa8"
+  },
+  {
+    "original": "deliverables/table7/recalculate_table7.py",
+    "original_sha256": "9be35412adf62f4a8b9fad483671aaea410ed19c8dc89227c9fc9517ff6abce0",
+    "packaged": "scripts/cross_language.py",
+    "packaged_sha256": "4bd02d0470967f89f088aa3ff33772ddbabf4ed46fedb66e2b24e2dbe8ef9d8e"
+  },
+  {
+    "original": "deliverables/ensemble/recalculate_ensemble.py",
+    "original_sha256": "376890f0f498c049139242fcbcfef2e0ec324ff2ee99666aea4ba4937826ab10",
+    "packaged": "scripts/ensemble.py",
+    "packaged_sha256": "bbf7f66f9d953e3e9797c554ca2f0092f429b87d7c6750250223154931c3ac83"
+  },
+  {
+    "original": "deliverables/leaderboard_ci/calculate_leaderboard_ci.py",
+    "original_sha256": "ae90d694384af3eb8f25ea5a15ae58126604f3efa2bbc58da44e545b00f3046b",
+    "packaged": "scripts/leaderboard.py",
+    "packaged_sha256": "89ac072561a8855e468527b53ddfdc3c5fc32b8b2a512494dcff70a16cc32419"
+  },
+  {
+    "original": "deliverables/supplementary_lb/recalculate_supplementary.py",
+    "original_sha256": "df77e3e3d06921fbcea7cc8d5a8ef56316a4d037c661d35009dc68f632a7fc4f",
+    "packaged": "scripts/supplementary.py",
+    "packaged_sha256": "1ce6c2f383e8d486e54be097036e74ca245b6b8142df5538b3b3c2506bf0d02e"
+  }
+]

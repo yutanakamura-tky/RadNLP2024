@@ -1,0 +1,5 @@
+split,reports,size_indeterminate,fraction,indeterminate_T2a_or_higher
+all,243,48,0.19753086419753085,40
+train,108,16,0.14814814814814814,13
+val,54,6,0.1111111111111111,5
+test,81,26,0.32098765432098764,22
