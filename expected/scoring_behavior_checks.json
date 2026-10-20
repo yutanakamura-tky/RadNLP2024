@@ -1,0 +1,58 @@
+[
+  {
+    "check": "format_normalization",
+    "result": {
+      "joint_accuracy_fine": 1.0,
+      "n_accuracy_fine": 1.0,
+      "t_accuracy_fine": 1.0,
+      "m_accuracy_fine": 1.0,
+      "joint_accuracy_coarse": 1.0,
+      "n_accuracy_coarse": 1.0,
+      "t_accuracy_coarse": 1.0,
+      "m_accuracy_coarse": 1.0
+    }
+  },
+  {
+    "check": "invalid_coarse_labels",
+    "result": {
+      "joint_accuracy_fine": 0.0,
+      "n_accuracy_fine": 1.0,
+      "t_accuracy_fine": 0.5,
+      "m_accuracy_fine": 0.5,
+      "joint_accuracy_coarse": 0.0,
+      "n_accuracy_coarse": 1.0,
+      "t_accuracy_coarse": 0.5,
+      "m_accuracy_coarse": 0.5
+    }
+  },
+  {
+    "check": "missing_report",
+    "result": {
+      "joint_accuracy_fine": 0.5,
+      "n_accuracy_fine": 0.5,
+      "t_accuracy_fine": 0.5,
+      "m_accuracy_fine": 0.5,
+      "joint_accuracy_coarse": 0.5,
+      "n_accuracy_coarse": 0.5,
+      "t_accuracy_coarse": 0.5,
+      "m_accuracy_coarse": 0.5
+    }
+  },
+  {
+    "check": "missing_T_column",
+    "result": {
+      "joint_accuracy_fine": 0.0,
+      "n_accuracy_fine": 1.0,
+      "m_accuracy_fine": 1.0,
+      "t_accuracy_fine": 0.0,
+      "joint_accuracy_coarse": 0.0,
+      "n_accuracy_coarse": 1.0,
+      "m_accuracy_coarse": 1.0,
+      "t_accuracy_coarse": 0.0
+    }
+  },
+  {
+    "check": "duplicate_id",
+    "error": "ValueError: Can only compare identically-labeled Series objects"
+  }
+]

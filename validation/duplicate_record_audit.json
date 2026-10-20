@@ -1,0 +1,17 @@
+{
+  "status": "resolved",
+  "cause": "same_submission_id_counted_twice_in_legacy_metadata_row_count",
+  "language": "ja",
+  "task": "main",
+  "team": "sociocom",
+  "submission_id": "8830aa88-db2f-4227-94e4-d1b67c497256",
+  "teams": 11,
+  "legacy_sociocom_count": 2,
+  "corrected_sociocom_count": 1,
+  "legacy_rho": 0.4009386883222482,
+  "legacy_p": 0.22168301553096678,
+  "corrected_rho": 0.4453194528540574,
+  "corrected_p": 0.16987767013818195,
+  "other_team_counts_unchanged": true,
+  "performance_scores_unchanged": true
+}

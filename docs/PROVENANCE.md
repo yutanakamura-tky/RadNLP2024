@@ -1,0 +1,13 @@
+# Code provenance
+
+The package consolidates the final audited analysis scripts produced during the October 2026 revision. `config/code_provenance.json` records hashes of the original analytical sources and their adapted versions. Adaptations remove Word-document dependencies, replace workspace paths with configurable input/output roots and remove comparisons with superseded manuscript versions. The final statistical kernels remain the same and are checked against their frozen outputs.
+
+`vendor/official_metric.py` contains the exact source definitions of `BaseMetric`, `MainTaskMetric` and `SubTaskMetric` extracted from the archived official `metric.py`. No class implementation was changed. Unneeded Hugging Face server orchestration was omitted, including a server log template that would print runtime tokens. The original metric hash is recorded in the provenance manifest. No authentication or network access is required by the offline analyses.
+
+`selection.py`, `additional.py`, `confusion.py`, `subtask.py` and `submission_frequency.py` consolidate the documented final rules and/or add explicit audits. Their source is provided in full. The submission-frequency stage also reconstructs the old metadata-row count and the corrected unique-ID count, proving that the difference comes solely from the duplicate sociocom record. `verify.py` compares freshly generated values to fixed final-analysis reference tables. `run.py` checks hashes and runs all stages in a specified sequence. None reads the Word manuscript or the original conversation workspace.
+
+Reference outputs in `expected/` were copied from the previously completed final analyses, except the displayed Tables 4/5 values, which were transcribed programmatically from the archived manuscript tables. They are verification targets, not analysis inputs. Metadata/configuration manifests are analytical inputs and are versioned separately from external prediction vectors.
+
+`config/package_checksums.csv` identifies every code/configuration/reference/documentation file distributed in this package. The checksum manifest does not hash itself. `validation/` records the independently executed release-candidate validation. Software licensing is stated in LICENSE; the provenance records do not authorize redistribution of external input data.
+
+The proxy analysis was reconstructed from the subsequently supplied adjudicated consensus CSVs. It is a new transparent implementation of the explicit size-unknown flag and T-derivation subtotal comparisons; the original historical proxy program was not recovered. Its numerical results match all reported counts.

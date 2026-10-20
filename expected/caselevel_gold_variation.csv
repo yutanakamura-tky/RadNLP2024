@@ -1,0 +1,7 @@
+language,category,n_cases,all_9_same_gold_cases,varying_gold_cases,varying_gold_fraction,max_unique_gold_labels_within_case
+ja,T,24,14,10,0.4166666666666667,4
+ja,N,24,8,16,0.6666666666666666,4
+ja,M,24,17,7,0.2916666666666667,3
+en,T,9,6,3,0.3333333333333333,4
+en,N,9,3,6,0.6666666666666666,4
+en,M,9,7,2,0.2222222222222222,3

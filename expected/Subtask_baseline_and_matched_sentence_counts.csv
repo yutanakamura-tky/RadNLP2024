@@ -1,0 +1,3 @@
+language,total_sentences,reports,omittable_count,all_staging_negative,contradictory_reference,overall_micro_f2,inclusion_micro_f2,measure_micro_f2,extension_micro_f2,atelectasis_micro_f2,satellite_micro_f2,lymphadenopathy_micro_f2,pleural_micro_f2,distant_micro_f2,matched_reports,matched_sentences,matched_sentences_per_report
+en,568,81,291,290,1,0.5105633802816901,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,81,568,7.012345679012346
+ja,1976,216,807,807,0,0.4084008097165992,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,81,729,9.0

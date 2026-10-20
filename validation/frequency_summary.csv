@@ -1,0 +1,6 @@
+task,language,rule,teams,median,minimum,maximum,spearman_rho,spearman_p
+main,en,selected_only,10,5.0,1,23,0.6712455895421081,0.033575883026829734
+main,ja,selected_plus_asukai_exception,11,3.0,1,24,0.4453194528540574,0.16987767013818195
+main,ja,selected_only,10,4.0,1,24,0.5237194491032396,0.12025608912220016
+sub,en,selected_only,7,1.0,1,39,0.6501910851472581,0.11386426235329317
+sub,ja,selected_only,4,1.5,1,94,-0.21081851067789195,0.7891814893221081
